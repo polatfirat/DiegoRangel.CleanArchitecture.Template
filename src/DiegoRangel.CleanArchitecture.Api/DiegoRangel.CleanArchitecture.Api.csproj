@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiegoRangel.DotNet.Framework.CQRS.API" Version="1.1.10" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiegoRangel.CleanArchitecture.Domain\DiegoRangel.CleanArchitecture.Domain.csproj" />
+    <ProjectReference Include="..\DiegoRangel.CleanArchitecture.Infra.CrossCutting\DiegoRangel.CleanArchitecture.Infra.CrossCutting.csproj" />
+    <ProjectReference Include="..\DiegoRangel.CleanArchitecture.Infra.IoC\DiegoRangel.CleanArchitecture.Infra.IoC.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\EmailTemplates\" />
+  </ItemGroup>
+
+</Project>

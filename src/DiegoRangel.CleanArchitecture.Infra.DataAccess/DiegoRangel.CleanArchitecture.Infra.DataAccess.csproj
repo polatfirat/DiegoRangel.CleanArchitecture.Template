@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiegoRangel.DotNet.Framework.CQRS.Infra.Data.EFCore" Version="1.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiegoRangel.CleanArchitecture.Domain\DiegoRangel.CleanArchitecture.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

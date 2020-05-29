@@ -1,0 +1,628 @@
+2020-05-28 22:31:13.509 [INF] Starting Amplifier web host
+2020-05-28 22:31:14.722 [FTL] Host terminated unexpectedly
+System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
+   at DiegoRangel.CleanArchitecture.Api.Extensions.ServiceCollectionExtensions.AddAppSettings(IServiceCollection services, Func`1 setupAction) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Extensions\ServiceCollectionExtensions.cs:line 12
+   at DiegoRangel.CleanArchitecture.Api.Startup.ConfigureServices(IServiceCollection services) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Startup.cs:line 48
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DiegoRangel.CleanArchitecture.Api.Program.Main(String[] args) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Program.cs:line 19
+2020-05-28 22:34:25.385 [INF] Starting Amplifier web host
+2020-05-28 22:34:25.522 [FTL] Host terminated unexpectedly
+System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
+   at DiegoRangel.CleanArchitecture.Api.Extensions.ServiceCollectionExtensions.AddAppSettings(IServiceCollection services, Func`1 setupAction) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Extensions\ServiceCollectionExtensions.cs:line 12
+   at DiegoRangel.CleanArchitecture.Api.Startup.ConfigureServices(IServiceCollection services) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Startup.cs:line 48
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass12_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DiegoRangel.CleanArchitecture.Api.Program.Main(String[] args) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Program.cs:line 19
+2020-05-28 22:37:35.067 [INF] Starting Amplifier web host
+2020-05-28 22:37:36.110 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-28 22:37:36.113 [INF] Hosting environment: Development
+2020-05-28 22:37:36.115 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-28 22:37:36.137 [INF] Request starting HTTP/2.0 GET https://localhost:44361/  
+2020-05-28 22:37:36.170 [INF] Request finished in 36.1692ms 404 
+2020-05-28 22:37:42.345 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger  
+2020-05-28 22:37:42.349 [INF] Request finished in 4.4977ms 301 
+2020-05-28 22:37:42.352 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-28 22:37:42.380 [INF] Request finished in 27.8628ms 200 text/html;charset=utf-8
+2020-05-28 22:37:42.396 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/swagger-ui-bundle.js  
+2020-05-28 22:37:42.396 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/swagger-ui.css  
+2020-05-28 22:37:42.396 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/swagger-ui-standalone-preset.js  
+2020-05-28 22:37:42.424 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-05-28 22:37:42.426 [INF] Request finished in 29.4954ms 200 text/css
+2020-05-28 22:37:42.429 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-05-28 22:37:42.429 [INF] Request finished in 32.8006ms 200 application/javascript
+2020-05-28 22:37:42.453 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-05-28 22:37:42.453 [INF] Request finished in 57.0449ms 200 application/javascript
+2020-05-28 22:37:42.646 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-28 22:37:42.663 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/favicon-32x32.png  
+2020-05-28 22:37:42.665 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-05-28 22:37:42.665 [INF] Request finished in 1.4256ms 200 image/png
+2020-05-28 22:37:42.671 [INF] Request finished in 25.6149ms 200 application/json;charset=utf-8
+2020-05-28 23:13:12.206 [INF] Starting Amplifier web host
+2020-05-28 23:13:13.528 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example] Lifetime: Transient ImplementationType: DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler': Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example] Lifetime: Transient ImplementationType: DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler': Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DiegoRangel.CleanArchitecture.Api.Program.Main(String[] args) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Program.cs:line 19
+2020-05-28 23:24:17.663 [INF] Starting Amplifier web host
+2020-05-28 23:24:18.027 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example] Lifetime: Transient ImplementationType: DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler': Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.) (Error while validating the service descriptor 'ServiceType: DiegoRangel.CleanArchitecture.Domain.Example.Repositories.IExampleRepository Lifetime: Scoped ImplementationType: DiegoRangel.CleanArchitecture.Infra.DataAccess.Repositories.ExampleRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'DiegoRangel.CleanArchitecture.Infra.DataAccess.Repositories.ExampleRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example] Lifetime: Transient ImplementationType: DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler': Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DiegoRangel.CleanArchitecture.Api.Program.Main(String[] args) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Program.cs:line 19
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: DiegoRangel.CleanArchitecture.Domain.Example.Repositories.IExampleRepository Lifetime: Scoped ImplementationType: DiegoRangel.CleanArchitecture.Infra.DataAccess.Repositories.ExampleRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'DiegoRangel.CleanArchitecture.Infra.DataAccess.Repositories.ExampleRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'DiegoRangel.CleanArchitecture.Infra.DataAccess.Repositories.ExampleRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2020-05-28 23:32:31.294 [INF] Starting Amplifier web host
+2020-05-28 23:32:31.561 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example] Lifetime: Transient ImplementationType: DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler': Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.) (Error while validating the service descriptor 'ServiceType: DiegoRangel.CleanArchitecture.Domain.Example.Repositories.IExampleRepository Lifetime: Scoped ImplementationType: DiegoRangel.CleanArchitecture.Infra.DataAccess.Repositories.ExampleRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'DiegoRangel.CleanArchitecture.Infra.DataAccess.Repositories.ExampleRepository'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example] Lifetime: Transient ImplementationType: DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler': Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DiegoRangel.CleanArchitecture.Api.Program.Main(String[] args) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Program.cs:line 19
+ ---> (Inner Exception #1) System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: DiegoRangel.CleanArchitecture.Domain.Example.Repositories.IExampleRepository Lifetime: Scoped ImplementationType: DiegoRangel.CleanArchitecture.Infra.DataAccess.Repositories.ExampleRepository': Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'DiegoRangel.CleanArchitecture.Infra.DataAccess.Repositories.ExampleRepository'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.EntityFrameworkCore.DbContext' while attempting to activate 'DiegoRangel.CleanArchitecture.Infra.DataAccess.Repositories.ExampleRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)<---
+
+2020-05-28 23:33:22.054 [INF] Starting Amplifier web host
+2020-05-28 23:33:22.337 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example] Lifetime: Transient ImplementationType: DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler': Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example] Lifetime: Transient ImplementationType: DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler': Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DiegoRangel.CleanArchitecture.Api.Program.Main(String[] args) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Program.cs:line 19
+2020-05-28 23:35:23.911 [INF] Starting Amplifier web host
+2020-05-28 23:35:25.630 [FTL] Host terminated unexpectedly
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example] Lifetime: Transient ImplementationType: DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler': Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example] Lifetime: Transient ImplementationType: DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler': Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'DiegoRangel.DotNet.Framework.CQRS.Domain.Core.Interfaces.IUnitOfWork' while attempting to activate 'DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(IEnumerable`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.DefaultServiceProviderFactory.CreateServiceProvider(IServiceCollection containerBuilder)
+   at Microsoft.Extensions.Hosting.Internal.ServiceFactoryAdapter`1.CreateServiceProvider(Object containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at DiegoRangel.CleanArchitecture.Api.Program.Main(String[] args) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Program.cs:line 19
+2020-05-28 23:36:50.954 [INF] Starting Amplifier web host
+2020-05-28 23:44:28.317 [INF] Starting Amplifier web host
+2020-05-28 23:44:28.929 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-28 23:44:28.932 [INF] Hosting environment: Development
+2020-05-28 23:44:28.933 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-28 23:44:28.944 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-28 23:44:28.944 [INF] Request starting HTTP/2.0 GET https://localhost:44361/favicon.ico  
+2020-05-28 23:44:29.013 [INF] Request finished in 73.1984ms 404 
+2020-05-28 23:44:29.030 [INF] Request finished in 90.1505ms 200 text/html;charset=utf-8
+2020-05-28 23:44:29.291 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-28 23:44:29.363 [INF] Request finished in 72.1033ms 200 application/json;charset=utf-8
+2020-05-28 23:44:33.275 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-28 23:44:33.280 [INF] Request finished in 5.1002ms 200 application/json;charset=utf-8
+2020-05-28 23:45:25.232 [INF] Starting Amplifier web host
+2020-05-28 23:45:25.606 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-28 23:45:25.609 [INF] Hosting environment: Development
+2020-05-28 23:45:25.610 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-28 23:45:25.622 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-28 23:45:25.690 [INF] Request finished in 71.643ms 200 text/html;charset=utf-8
+2020-05-28 23:45:25.838 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-28 23:45:25.906 [INF] Request finished in 67.8023ms 200 application/json;charset=utf-8
+2020-05-28 23:45:29.091 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-28 23:45:29.096 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:29.126 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:45:29.195 [INF] Proccessing Request: [GenerateKeyCommand] for user [084823f0-1f1d-4625-bfc1-2fc90252cba8] with model: {};
+2020-05-28 23:45:29.210 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-28 23:45:29.233 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 102.7009ms
+2020-05-28 23:45:29.235 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:29.235 [INF] Request finished in 144.4362ms 200 application/json; charset=utf-8
+2020-05-28 23:45:32.033 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-28 23:45:32.035 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:32.036 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:45:32.036 [INF] Proccessing Request: [GenerateKeyCommand] for user [7299e718-d1f2-40c1-9b7b-68aec660094a] with model: {};
+2020-05-28 23:45:32.037 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-28 23:45:32.038 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 1.7352ms
+2020-05-28 23:45:32.038 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:32.038 [INF] Request finished in 5.1357ms 200 application/json; charset=utf-8
+2020-05-28 23:45:32.480 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-28 23:45:32.481 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:32.482 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:45:32.484 [INF] Proccessing Request: [GenerateKeyCommand] for user [59f6d94c-2432-4f6f-bd62-8039ae30d58f] with model: {};
+2020-05-28 23:45:32.484 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-28 23:45:32.485 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 2.7663ms
+2020-05-28 23:45:32.485 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:32.485 [INF] Request finished in 4.9927ms 200 application/json; charset=utf-8
+2020-05-28 23:45:32.729 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-28 23:45:32.730 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:32.730 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:45:32.731 [INF] Proccessing Request: [GenerateKeyCommand] for user [07b829b1-221f-49eb-b416-7a50577c03d9] with model: {};
+2020-05-28 23:45:32.732 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-28 23:45:32.733 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 2.5205ms
+2020-05-28 23:45:32.734 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:32.735 [INF] Request finished in 6.7229ms 200 application/json; charset=utf-8
+2020-05-28 23:45:32.945 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-28 23:45:32.946 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:32.946 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:45:32.947 [INF] Proccessing Request: [GenerateKeyCommand] for user [196c16d2-5d40-4c02-a46c-8c1598b59e3e] with model: {};
+2020-05-28 23:45:32.947 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-28 23:45:32.948 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 1.5491ms
+2020-05-28 23:45:32.948 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:32.948 [INF] Request finished in 3.3652ms 200 application/json; charset=utf-8
+2020-05-28 23:45:33.160 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-28 23:45:33.161 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:33.161 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:45:33.161 [INF] Proccessing Request: [GenerateKeyCommand] for user [4bdd6681-e25e-4433-b634-5e99c2046153] with model: {};
+2020-05-28 23:45:33.161 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-28 23:45:33.162 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 0.7789ms
+2020-05-28 23:45:33.162 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:33.162 [INF] Request finished in 1.6645ms 200 application/json; charset=utf-8
+2020-05-28 23:45:33.362 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-28 23:45:33.362 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:33.362 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:45:33.362 [INF] Proccessing Request: [GenerateKeyCommand] for user [6b474400-39cd-4963-ac53-14ec7ee2dbb4] with model: {};
+2020-05-28 23:45:33.362 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-28 23:45:33.362 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 0.3157ms
+2020-05-28 23:45:33.362 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:45:33.363 [INF] Request finished in 0.9264ms 200 application/json; charset=utf-8
+2020-05-28 23:47:42.824 [INF] Starting Amplifier web host
+2020-05-28 23:47:43.239 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-28 23:47:43.242 [INF] Hosting environment: Development
+2020-05-28 23:47:43.243 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-28 23:47:43.259 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-28 23:47:43.267 [INF] CORS policy execution successful.
+2020-05-28 23:47:43.286 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:47:43.321 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:47:43.470 [INF] Proccessing Request: [CreateExampleCommand] for user [58a62fdc-b74b-4854-a9dd-a33c86c941ed] with model: {"Title":"string"};
+2020-05-28 23:47:43.961 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-28 23:47:43.996 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 671.3757ms
+2020-05-28 23:47:43.999 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:47:44.000 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateExampleCommand -> Example
+DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand -> DiegoRangel.CleanArchitecture.Domain.Example.Example
+   at lambda_method(Closure , CreateExampleCommand , Example , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler.Handle(CreateExampleCommand request, CancellationToken cancellationToken) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Domain\Example\Commands\CreateExampleCommand.cs:line 38
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.CrossCutting.MediatR.Behaviors.RequestPerformanceBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample(CreateExampleCommand input) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Controllers\ValuesController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2020-05-28 23:47:44.060 [INF] Request finished in 805.2777ms 500 application/json
+2020-05-28 23:47:47.536 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-28 23:47:47.537 [INF] CORS policy execution successful.
+2020-05-28 23:47:47.538 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:47:47.539 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:47:47.541 [INF] Proccessing Request: [CreateExampleCommand] for user [0c1a0bd3-1586-4f01-9781-ea5faefabdee] with model: {"Title":"string"};
+2020-05-28 23:47:47.566 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-28 23:47:47.567 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 28.4066ms
+2020-05-28 23:47:47.568 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:47:47.568 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateExampleCommand -> Example
+DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand -> DiegoRangel.CleanArchitecture.Domain.Example.Example
+   at lambda_method(Closure , CreateExampleCommand , Example , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler.Handle(CreateExampleCommand request, CancellationToken cancellationToken) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Domain\Example\Commands\CreateExampleCommand.cs:line 38
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.CrossCutting.MediatR.Behaviors.RequestPerformanceBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample(CreateExampleCommand input) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Controllers\ValuesController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2020-05-28 23:47:47.570 [INF] Request finished in 35.1428ms 500 application/json
+2020-05-28 23:54:19.994 [INF] Starting Amplifier web host
+2020-05-28 23:54:20.407 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-28 23:54:20.410 [INF] Hosting environment: Development
+2020-05-28 23:54:20.411 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-28 23:54:20.421 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-28 23:54:20.489 [INF] Request finished in 71.1517ms 200 text/html;charset=utf-8
+2020-05-28 23:54:20.657 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-28 23:54:20.729 [INF] Request finished in 72.8759ms 200 application/json;charset=utf-8
+2020-05-28 23:54:25.357 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-28 23:54:25.361 [INF] CORS policy execution successful.
+2020-05-28 23:54:25.366 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:54:25.400 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:54:25.525 [INF] Proccessing Request: [CreateExampleCommand] for user [b745070e-af8a-4335-80e0-a1e4a2815b4a] with model: {"Title":"string"};
+2020-05-28 23:54:25.568 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 163.1484ms
+2020-05-28 23:54:25.570 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:54:25.571 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Error constructing handler for request of type MediatR.IRequestHandler`2[DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand,DiegoRangel.CleanArchitecture.Domain.Example.Example]. Register your handlers with the container. See the samples in GitHub for examples.
+ ---> System.MissingMethodException: No parameterless constructor defined for type 'DiegoRangel.CleanArchitecture.Api.Mapper.AppProfile'.
+   at System.RuntimeType.CreateInstanceDefaultCtorSlow(Boolean publicOnly, Boolean wrapExceptions, Boolean fillCache)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, Boolean wrapExceptions)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic, Boolean wrapExceptions)
+   at System.Activator.CreateInstance(Type type)
+   at AutoMapper.Configuration.MapperConfigurationExpression.AddProfile(Type profileType)
+   at AutoMapper.Configuration.MapperConfigurationExpression.AddMapsCore(IEnumerable`1 assembliesToScan)
+   at AutoMapper.Configuration.MapperConfigurationExpression.AddMaps(IEnumerable`1 assembliesToScan)
+   at AutoMapper.ServiceCollectionExtensions.<>c__DisplayClass11_0.<AddAutoMapperClasses>g__ConfigAction|3(IServiceProvider serviceProvider, IMapperConfigurationExpression cfg)
+   at AutoMapper.ServiceCollectionExtensions.<>c__DisplayClass11_2.<AddAutoMapperClasses>b__8(IMapperConfigurationExpression cfg)
+   at AutoMapper.MapperConfiguration.Build(Action`1 configure)
+   at AutoMapper.MapperConfiguration..ctor(Action`1 configure)
+   at AutoMapper.ServiceCollectionExtensions.<>c__DisplayClass11_0.<AddAutoMapperClasses>b__4(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite singletonCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at AutoMapper.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__11_5(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at MediatR.ServiceFactoryExtensions.GetInstance[T](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   --- End of inner exception stack trace ---
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.CrossCutting.MediatR.Behaviors.RequestPerformanceBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample(CreateExampleCommand input) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Controllers\ValuesController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2020-05-28 23:54:25.615 [INF] Request finished in 259.4468ms 500 application/json
+2020-05-28 23:58:13.018 [INF] Starting Amplifier web host
+2020-05-28 23:58:13.421 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-28 23:58:13.425 [INF] Hosting environment: Development
+2020-05-28 23:58:13.427 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-28 23:58:13.440 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-28 23:58:13.509 [INF] Request finished in 73.0115ms 200 text/html;charset=utf-8
+2020-05-28 23:58:13.659 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-28 23:58:13.734 [INF] Request finished in 75.2292ms 200 application/json;charset=utf-8
+2020-05-28 23:58:15.510 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-28 23:58:15.514 [INF] CORS policy execution successful.
+2020-05-28 23:58:15.519 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:58:15.556 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:58:15.681 [INF] Proccessing Request: [CreateExampleCommand] for user [fd23d2d2-7fe1-45d1-ac00-839c31158dd4] with model: {"Title":"string"};
+2020-05-28 23:58:16.039 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-28 23:58:16.058 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 497.6425ms
+2020-05-28 23:58:16.060 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:58:16.061 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateExampleCommand -> Example
+DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand -> DiegoRangel.CleanArchitecture.Domain.Example.Example
+   at lambda_method(Closure , CreateExampleCommand , Example , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler.Handle(CreateExampleCommand request, CancellationToken cancellationToken) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Domain\Example\Commands\CreateExampleCommand.cs:line 38
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.CrossCutting.MediatR.Behaviors.RequestPerformanceBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample(CreateExampleCommand input) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Controllers\ValuesController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2020-05-28 23:58:16.110 [INF] Request finished in 601.2174ms 500 application/json
+2020-05-28 23:58:17.369 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-28 23:58:17.370 [INF] CORS policy execution successful.
+2020-05-28 23:58:17.371 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:58:17.372 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:58:17.374 [INF] Proccessing Request: [CreateExampleCommand] for user [d6b23360-749f-47e4-80e8-42c32274a2be] with model: {"Title":"string"};
+2020-05-28 23:58:17.400 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-28 23:58:17.401 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 28.5285ms
+2020-05-28 23:58:17.401 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:58:17.402 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateExampleCommand -> Example
+DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand -> DiegoRangel.CleanArchitecture.Domain.Example.Example
+   at lambda_method(Closure , CreateExampleCommand , Example , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler.Handle(CreateExampleCommand request, CancellationToken cancellationToken) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Domain\Example\Commands\CreateExampleCommand.cs:line 38
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.CrossCutting.MediatR.Behaviors.RequestPerformanceBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample(CreateExampleCommand input) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Controllers\ValuesController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2020-05-28 23:58:17.404 [INF] Request finished in 35.0042ms 500 application/json
+2020-05-28 23:58:45.532 [INF] Starting Amplifier web host
+2020-05-28 23:58:53.249 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-28 23:58:53.267 [INF] Hosting environment: Development
+2020-05-28 23:58:53.277 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-28 23:58:53.305 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-28 23:58:53.391 [INF] Request finished in 89.756ms 200 text/html;charset=utf-8
+2020-05-28 23:58:53.560 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-28 23:58:53.679 [INF] Request finished in 118.6715ms 200 application/json;charset=utf-8
+2020-05-28 23:58:56.661 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-28 23:58:56.665 [INF] CORS policy execution successful.
+2020-05-28 23:58:56.670 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-28 23:58:56.709 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-28 23:58:56.927 [INF] Executing action method DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) - Validation state: "Valid"
+2020-05-28 23:58:56.962 [INF] Proccessing Request: [CreateExampleCommand] for user [447be9f9-d075-42f4-bfa8-81e7267c6e4b] with model: {"Title":"string"};
+2020-05-29 00:01:06.158 [INF] Starting Amplifier web host
+2020-05-29 00:01:06.535 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-29 00:01:06.538 [INF] Hosting environment: Development
+2020-05-29 00:01:06.539 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-29 00:01:06.549 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-29 00:01:06.617 [INF] Request finished in 71.205ms 200 text/html;charset=utf-8
+2020-05-29 00:01:06.780 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-29 00:01:06.851 [INF] Request finished in 70.852ms 200 application/json;charset=utf-8
+2020-05-29 00:01:08.701 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 00:01:08.706 [INF] CORS policy execution successful.
+2020-05-29 00:01:08.711 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 00:01:08.749 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 00:01:08.877 [INF] Proccessing Request: [CreateExampleCommand] for user [30daabe6-fb9e-424b-aa1c-1065b10160ab] with model: {"Title":"string"};
+2020-05-29 00:01:09.234 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 00:01:09.255 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 501.7474ms
+2020-05-29 00:01:09.257 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 00:01:09.258 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateExampleCommand -> Example
+DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand -> DiegoRangel.CleanArchitecture.Domain.Example.Example
+   at lambda_method(Closure , CreateExampleCommand , Example , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler.Handle(CreateExampleCommand request, CancellationToken cancellationToken) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Domain\Example\Commands\CreateExampleCommand.cs:line 38
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.CrossCutting.MediatR.Behaviors.RequestPerformanceBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample(CreateExampleCommand input) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Controllers\ValuesController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2020-05-29 00:01:09.303 [INF] Request finished in 603.2903ms 500 application/json
+2020-05-29 00:02:01.263 [INF] Starting Amplifier web host
+2020-05-29 00:02:01.660 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-29 00:02:01.663 [INF] Hosting environment: Development
+2020-05-29 00:02:01.664 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-29 00:02:01.674 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 00:02:01.682 [INF] CORS policy execution successful.
+2020-05-29 00:02:01.702 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 00:02:01.737 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 00:02:01.867 [INF] Proccessing Request: [CreateExampleCommand] for user [94c2cd5c-d827-4af3-97d8-a490ba4e7399] with model: {"Title":"string"};
+2020-05-29 00:02:02.232 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 00:02:02.252 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 511.1755ms
+2020-05-29 00:02:02.254 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 00:02:02.255 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateExampleCommand -> Example
+DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand -> DiegoRangel.CleanArchitecture.Domain.Example.Example
+   at lambda_method(Closure , CreateExampleCommand , Example , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler.Handle(CreateExampleCommand request, CancellationToken cancellationToken) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Domain\Example\Commands\CreateExampleCommand.cs:line 38
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.CrossCutting.MediatR.Behaviors.RequestPerformanceBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample(CreateExampleCommand input) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Controllers\ValuesController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2020-05-29 00:02:02.310 [INF] Request finished in 639.4387ms 500 application/json
+2020-05-29 00:02:31.957 [INF] Starting Amplifier web host
+2020-05-29 00:02:34.025 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-29 00:02:34.028 [INF] Hosting environment: Development
+2020-05-29 00:02:34.030 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-29 00:02:34.050 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-29 00:02:34.128 [INF] Request finished in 81.4702ms 200 text/html;charset=utf-8
+2020-05-29 00:02:35.254 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-29 00:02:35.345 [INF] Request finished in 91.4945ms 200 application/json;charset=utf-8
+2020-05-29 00:02:36.308 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 00:02:36.313 [INF] CORS policy execution successful.
+2020-05-29 00:02:36.318 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 00:02:36.357 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 00:02:36.579 [INF] Executing action method DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) - Validation state: "Valid"
+2020-05-29 00:02:36.613 [INF] Proccessing Request: [CreateExampleCommand] for user [fd5f6dae-05a8-434f-9087-00eb18b717a1] with model: {"Title":"string"};

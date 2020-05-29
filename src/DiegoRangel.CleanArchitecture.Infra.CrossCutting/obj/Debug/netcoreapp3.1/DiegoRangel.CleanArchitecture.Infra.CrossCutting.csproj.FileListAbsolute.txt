@@ -1,0 +1,9 @@
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.CrossCutting\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.deps.json
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.CrossCutting\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.dll
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.CrossCutting\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.pdb
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.CrossCutting\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.AssemblyInfoInputs.cache
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.CrossCutting\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.AssemblyInfo.cs
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.CrossCutting\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.dll
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.CrossCutting\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.pdb
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.CrossCutting\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.csprojAssemblyReference.cache
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.CrossCutting\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.csproj.CoreCompileInputs.cache

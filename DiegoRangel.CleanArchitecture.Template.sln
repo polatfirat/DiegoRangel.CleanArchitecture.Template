@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{9E52E653-D176-4AB2-9161-EA08EE59316F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{7CEFC914-3247-4737-BCAC-D40F8BF401A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{90632227-370A-43FE-932F-F63B281E1D7D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Test", "4 - Test", "{4FAF76EC-49BE-4224-B7FC-7B1CDF5E699F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiegoRangel.CleanArchitecture.Api", "src\DiegoRangel.CleanArchitecture.Api\DiegoRangel.CleanArchitecture.Api.csproj", "{04922CD4-19BA-48D8-8D3F-C969DF881B20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiegoRangel.CleanArchitecture.Domain", "src\DiegoRangel.CleanArchitecture.Domain\DiegoRangel.CleanArchitecture.Domain.csproj", "{0A1CE5B1-2406-49EB-99EA-547E496C0BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiegoRangel.CleanArchitecture.Infra.DataAccess", "src\DiegoRangel.CleanArchitecture.Infra.DataAccess\DiegoRangel.CleanArchitecture.Infra.DataAccess.csproj", "{015317D6-9062-49F9-B9F0-F7C165E3DEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiegoRangel.CleanArchitecture.Infra.CrossCutting", "src\DiegoRangel.CleanArchitecture.Infra.CrossCutting\DiegoRangel.CleanArchitecture.Infra.CrossCutting.csproj", "{42C646F4-8758-4EC3-9501-165988AB4593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiegoRangel.CleanArchitecture.Infra.IoC", "src\DiegoRangel.CleanArchitecture.Infra.IoC\DiegoRangel.CleanArchitecture.Infra.IoC.csproj", "{11D6262F-E275-4D5C-9E6C-09A8B37DDB07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiegoRangel.CleanArchitecture.Test", "src\DiegoRangel.CleanArchitecture.Test\DiegoRangel.CleanArchitecture.Test.csproj", "{39B41D23-38C6-43C4-8511-15F8997D1C76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04922CD4-19BA-48D8-8D3F-C969DF881B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04922CD4-19BA-48D8-8D3F-C969DF881B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04922CD4-19BA-48D8-8D3F-C969DF881B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04922CD4-19BA-48D8-8D3F-C969DF881B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A1CE5B1-2406-49EB-99EA-547E496C0BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A1CE5B1-2406-49EB-99EA-547E496C0BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A1CE5B1-2406-49EB-99EA-547E496C0BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A1CE5B1-2406-49EB-99EA-547E496C0BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015317D6-9062-49F9-B9F0-F7C165E3DEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015317D6-9062-49F9-B9F0-F7C165E3DEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015317D6-9062-49F9-B9F0-F7C165E3DEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015317D6-9062-49F9-B9F0-F7C165E3DEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C646F4-8758-4EC3-9501-165988AB4593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C646F4-8758-4EC3-9501-165988AB4593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C646F4-8758-4EC3-9501-165988AB4593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C646F4-8758-4EC3-9501-165988AB4593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D6262F-E275-4D5C-9E6C-09A8B37DDB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D6262F-E275-4D5C-9E6C-09A8B37DDB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D6262F-E275-4D5C-9E6C-09A8B37DDB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D6262F-E275-4D5C-9E6C-09A8B37DDB07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B41D23-38C6-43C4-8511-15F8997D1C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B41D23-38C6-43C4-8511-15F8997D1C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B41D23-38C6-43C4-8511-15F8997D1C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B41D23-38C6-43C4-8511-15F8997D1C76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04922CD4-19BA-48D8-8D3F-C969DF881B20} = {9E52E653-D176-4AB2-9161-EA08EE59316F}
+		{0A1CE5B1-2406-49EB-99EA-547E496C0BFC} = {7CEFC914-3247-4737-BCAC-D40F8BF401A2}
+		{015317D6-9062-49F9-B9F0-F7C165E3DEA5} = {90632227-370A-43FE-932F-F63B281E1D7D}
+		{42C646F4-8758-4EC3-9501-165988AB4593} = {90632227-370A-43FE-932F-F63B281E1D7D}
+		{11D6262F-E275-4D5C-9E6C-09A8B37DDB07} = {90632227-370A-43FE-932F-F63B281E1D7D}
+		{39B41D23-38C6-43C4-8511-15F8997D1C76} = {4FAF76EC-49BE-4224-B7FC-7B1CDF5E699F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA0DDC09-2989-404B-AD67-DCC58E356E0B}
+	EndGlobalSection
+EndGlobal

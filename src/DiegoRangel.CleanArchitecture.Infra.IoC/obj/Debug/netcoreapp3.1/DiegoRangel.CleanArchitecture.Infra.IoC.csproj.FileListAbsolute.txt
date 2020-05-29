@@ -1,0 +1,16 @@
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.IoC.deps.json
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.IoC.dll
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.IoC.pdb
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.IoC.csprojAssemblyReference.cache
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.IoC.AssemblyInfoInputs.cache
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.IoC.AssemblyInfo.cs
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.IoC.dll
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.IoC.pdb
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Domain.dll
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.dll
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.DataAccess.dll
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Domain.pdb
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.CrossCutting.pdb
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\bin\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.DataAccess.pdb
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.IoC.csproj.CopyComplete
+D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Infra.IoC\obj\Debug\netcoreapp3.1\DiegoRangel.CleanArchitecture.Infra.IoC.csproj.CoreCompileInputs.cache
