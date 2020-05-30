@@ -112,13 +112,12 @@ namespace DiegoRangel.CleanArchitecture.Api
         /// <param name="env"></param>
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            app.UseExceptionHandlers();
-
             if (env.IsDevelopment())
                 app.UseDeveloperExceptionPage();
             else
                 app.UseHsts();
 
+            app.UseExceptionHandlers();
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseCors();
