@@ -328,15 +328,4 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
-bin
-obj
-bin
-obj
-obj
-bin
-obj
-bin
-bin
-obj
-obj
-bin
+/src/DiegoRangel.CleanArchitecture.Api/logs
