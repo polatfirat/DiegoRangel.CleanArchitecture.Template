@@ -1,4 +1,5 @@
-﻿using DiegoRangel.DotNet.Framework.CQRS.Infra.Data.EFCore.Extensions;
+﻿using DiegoRangel.CleanArchitecture.Domain.Example;
+using DiegoRangel.DotNet.Framework.CQRS.Infra.Data.EFCore.Extensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace DiegoRangel.CleanArchitecture.Infra.DataAccess.Contexts
@@ -10,11 +11,13 @@ namespace DiegoRangel.CleanArchitecture.Infra.DataAccess.Contexts
 
         }
 
+        public DbSet<Example> Examples { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-            builder.ApplyMappings();
+            builder.ApplyMappings(GetType().Assembly);
             builder.ApplyDateTimeConvention();
             builder.ApplyVarcharConvention();
         }

@@ -16,7 +16,7 @@ namespace DiegoRangel.CleanArchitecture.Domain.Example.Commands
     }
 
     public class CreateExampleCommandHandler : 
-        CommandHandlerBase, //Optional generic abstraction most used on writing operations
+        CommandHandlerBase<IApplicationUnitOfWork>, //Optional generic abstraction most used on writing operations
         ICommandHandler<CreateExampleCommand, Example>
     {
         private readonly IMapper _mapper;
@@ -33,15 +33,15 @@ namespace DiegoRangel.CleanArchitecture.Domain.Example.Commands
             _exampleRepository = exampleRepository;
         }
 
-        public Task<Example> Handle(CreateExampleCommand request, CancellationToken cancellationToken)
+        public async Task<Example> Handle(CreateExampleCommand request, CancellationToken cancellationToken)
         {
             var newExample = _mapper.Map<Example>(request);
 
-            //if (!IsValid(newExample)) return null;
-            //await _exampleRepository.AddAsync(newExample);
-            //await Commit();
+            if (!IsValid(newExample)) return null;
+            await _exampleRepository.AddAsync(newExample);
+            await Commit();
 
-            return Task.FromResult(newExample);
+            return newExample;
         }
     }
 }

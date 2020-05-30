@@ -1,21 +1,17 @@
-﻿using AutoMapper;
+﻿using System.Reflection;
 using DiegoRangel.DotNet.Framework.CQRS.API.Mapper;
 
 namespace DiegoRangel.CleanArchitecture.Api.Mapper
 {
-    public class AppProfile : Profile
+    public class AppProfile : ProfileBase
     {
-
-        public AppProfile()
+        protected override Assembly[] GetAssembliesForAutomation()
         {
-            var _assemblies = new[]
+            return new[]
             {
                 typeof(Startup).Assembly,
                 typeof(Domain.Common.ProjectIdentifier).Assembly,
             };
-
-            this.ApplyViewModelMappings(_assemblies);
-            this.ApplyAutoMappings(_assemblies);
         }
     }
 }

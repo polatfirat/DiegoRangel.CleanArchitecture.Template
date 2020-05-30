@@ -49,7 +49,7 @@ namespace DiegoRangel.CleanArchitecture.Api
             services.AddAppSettings(() => _appSettings);
             services.AddCorsWithDefaultPolicy(_appSettings.FrontEndUrl);
 
-            //The ResponseValidationFilter is useful to automatically prevent the pipeline to send http ok responses which has validation errors.
+            //The ResponseValidationFilter is useful to automatically prevent the pipeline to send http ok responses which has domain validation errors.
             services.AddControllers(options => options.Filters.Add<ResponseValidationFilter>())
                 .AddNewtonsoftJson();
 
@@ -102,24 +102,31 @@ namespace DiegoRangel.CleanArchitecture.Api
                 TempLoggedInUserIdentifierProvider>();
 
             Bootstrapper.RegisterServicesBasedOn<Guid>(services, assemblies);
-            AppInitializer.RegisterMyApplicationModules(services, _configuration.GetConnectionString("DefaultConnection"));
+            IocManager.RegisterApplicationServices(services);
         }
 
+        /// <summary>
+        /// Common Pipeline order: ExceptionHandlers / HSTS / HttpsRedirection / Static Files / Routing / CORS / Authentication / Authorization  / CUSTOM / Endpoint
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="env"></param>
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseExceptionHandlers();
+
             if (env.IsDevelopment())
                 app.UseDeveloperExceptionPage();
+            else
+                app.UseHsts();
 
-            app.UseCors(c =>
-            {
-                c.AllowAnyHeader();
-                c.AllowAnyMethod();
-                c.AllowAnyOrigin();
-            });
-
+            app.UseHttpsRedirection();
             app.UseRouting();
-            app.UseExceptionHandlers();
+            app.UseCors();
+            app.UseAuthentication();
+            app.UseAuthorization();
+
             app.UseResponseCompression();
+            app.UseRequestLocalization();
 
             app.UseEndpoints(endpoints =>
             {

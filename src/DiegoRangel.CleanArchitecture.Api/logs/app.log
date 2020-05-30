@@ -626,3 +626,524 @@ DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand -> Di
 2020-05-29 00:02:36.357 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
 2020-05-29 00:02:36.579 [INF] Executing action method DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) - Validation state: "Valid"
 2020-05-29 00:02:36.613 [INF] Proccessing Request: [CreateExampleCommand] for user [fd5f6dae-05a8-434f-9087-00eb18b717a1] with model: {"Title":"string"};
+2020-05-29 23:52:13.466 [INF] Starting Amplifier web host
+2020-05-29 23:52:15.509 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-29 23:52:15.513 [INF] Hosting environment: Development
+2020-05-29 23:52:15.515 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-29 23:52:15.523 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-29 23:52:15.588 [INF] Request finished in 67.932ms 200 text/html;charset=utf-8
+2020-05-29 23:52:15.603 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/swagger-ui.css  
+2020-05-29 23:52:15.603 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/swagger-ui-bundle.js  
+2020-05-29 23:52:15.603 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/swagger-ui-standalone-preset.js  
+2020-05-29 23:52:15.633 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-05-29 23:52:15.634 [INF] Request finished in 31.2814ms 200 text/css
+2020-05-29 23:52:15.638 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-05-29 23:52:15.638 [INF] Request finished in 34.9442ms 200 application/javascript
+2020-05-29 23:52:15.662 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-05-29 23:52:15.663 [INF] Request finished in 59.4953ms 200 application/javascript
+2020-05-29 23:52:15.862 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-29 23:52:15.931 [INF] Request finished in 68.6066ms 200 application/json;charset=utf-8
+2020-05-29 23:52:19.846 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-29 23:52:19.851 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:19.880 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:19.945 [INF] Proccessing Request: [GenerateKeyCommand] for user [3490d5fd-2dd1-4f99-ac46-16bc48b0fcb6] with model: {};
+2020-05-29 23:52:19.960 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-29 23:52:19.981 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 97.0201ms
+2020-05-29 23:52:19.982 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:19.983 [INF] Request finished in 136.9137ms 200 application/json; charset=utf-8
+2020-05-29 23:52:22.965 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-29 23:52:22.966 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:22.966 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:22.967 [INF] Proccessing Request: [GenerateKeyCommand] for user [0baa11a6-d163-4beb-8dde-7f6655f4d192] with model: {};
+2020-05-29 23:52:22.968 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-29 23:52:22.969 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 1.9281ms
+2020-05-29 23:52:22.969 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:22.969 [INF] Request finished in 4.2092ms 200 application/json; charset=utf-8
+2020-05-29 23:52:23.404 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-29 23:52:23.404 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:23.405 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:23.407 [INF] Proccessing Request: [GenerateKeyCommand] for user [e5de3be2-fbdd-4a71-837f-eb0a2be377fe] with model: {};
+2020-05-29 23:52:23.408 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-29 23:52:23.409 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 3.0429ms
+2020-05-29 23:52:23.409 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:23.409 [INF] Request finished in 5.5241ms 200 application/json; charset=utf-8
+2020-05-29 23:52:23.653 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-29 23:52:23.653 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:23.654 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:23.655 [INF] Proccessing Request: [GenerateKeyCommand] for user [77b8fc32-ca1b-43ed-a062-a16c45bed23d] with model: {};
+2020-05-29 23:52:23.655 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-29 23:52:23.656 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 1.7567ms
+2020-05-29 23:52:23.656 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:23.656 [INF] Request finished in 3.9308ms 200 application/json; charset=utf-8
+2020-05-29 23:52:23.870 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-29 23:52:23.871 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:23.871 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:23.872 [INF] Proccessing Request: [GenerateKeyCommand] for user [cd069370-9f3a-4aa4-9859-c86f043a3010] with model: {};
+2020-05-29 23:52:23.872 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-29 23:52:23.873 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 1.4224ms
+2020-05-29 23:52:23.873 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:23.873 [INF] Request finished in 3.0646ms 200 application/json; charset=utf-8
+2020-05-29 23:52:24.101 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-29 23:52:24.101 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:24.102 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:24.103 [INF] Proccessing Request: [GenerateKeyCommand] for user [20418a15-2817-4656-a67e-0b7128ce3b52] with model: {};
+2020-05-29 23:52:24.103 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-29 23:52:24.104 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 1.763ms
+2020-05-29 23:52:24.104 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:24.105 [INF] Request finished in 4.0485ms 200 application/json; charset=utf-8
+2020-05-29 23:52:24.308 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-29 23:52:24.309 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:24.309 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:24.310 [INF] Proccessing Request: [GenerateKeyCommand] for user [2798fef9-ee30-4bfd-92cb-da5271547e5a] with model: {};
+2020-05-29 23:52:24.310 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-29 23:52:24.311 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 1.4614ms
+2020-05-29 23:52:24.311 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:24.311 [INF] Request finished in 2.9204ms 200 application/json; charset=utf-8
+2020-05-29 23:52:24.722 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-29 23:52:24.723 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:24.723 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:24.724 [INF] Proccessing Request: [GenerateKeyCommand] for user [a5de95d7-1d16-44a5-a674-1eb7bdb738da] with model: {};
+2020-05-29 23:52:24.724 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-29 23:52:24.725 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 1.758ms
+2020-05-29 23:52:24.725 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:24.725 [INF] Request finished in 3.3589ms 200 application/json; charset=utf-8
+2020-05-29 23:52:25.042 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-29 23:52:25.042 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:25.043 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:25.043 [INF] Proccessing Request: [GenerateKeyCommand] for user [d85d7315-90b4-4bde-8994-6fc98e102314] with model: {};
+2020-05-29 23:52:25.043 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-29 23:52:25.044 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 1.2824ms
+2020-05-29 23:52:25.044 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:25.044 [INF] Request finished in 2.5039ms 200 application/json; charset=utf-8
+2020-05-29 23:52:31.890 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:31.894 [INF] CORS policy execution successful.
+2020-05-29 23:52:31.894 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:31.917 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:31.981 [INF] Proccessing Request: [CreateExampleCommand] for user [c6165619-aea6-4c5d-9051-6eda49d38883] with model: {"Title":"string"};
+2020-05-29 23:52:32.541 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:32.552 [WRN] Long Running Request: [CreateExampleCommand] (564 milliseconds) for user [f70be10b-5b2e-4bea-ad11-e4e68e5c10de] with model: {"Title":"string"};
+2020-05-29 23:52:32.555 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:32.557 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 640.1699ms
+2020-05-29 23:52:32.557 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:32.560 [INF] Request finished in 671.7422ms 200 application/json; charset=utf-8
+2020-05-29 23:52:34.401 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:34.401 [INF] CORS policy execution successful.
+2020-05-29 23:52:34.401 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:34.402 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:34.403 [INF] Proccessing Request: [CreateExampleCommand] for user [aa164e9c-1a54-471c-ac2f-e612336857e9] with model: {"Title":"string"};
+2020-05-29 23:52:34.431 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:34.432 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:34.432 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 30.4102ms
+2020-05-29 23:52:34.432 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:34.433 [INF] Request finished in 31.8968ms 200 application/json; charset=utf-8
+2020-05-29 23:52:35.501 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:35.502 [INF] CORS policy execution successful.
+2020-05-29 23:52:35.502 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:35.503 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:35.505 [INF] Proccessing Request: [CreateExampleCommand] for user [501917df-a5b7-47a5-a046-d25296fdd782] with model: {"Title":"string"};
+2020-05-29 23:52:35.514 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:35.515 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:35.515 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 12.3139ms
+2020-05-29 23:52:35.515 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:35.515 [INF] Request finished in 14.0552ms 200 application/json; charset=utf-8
+2020-05-29 23:52:35.995 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:35.995 [INF] CORS policy execution successful.
+2020-05-29 23:52:35.995 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:35.996 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:35.997 [INF] Proccessing Request: [CreateExampleCommand] for user [bc6a4f99-1406-4cc7-b17a-724b8cab2c5e] with model: {"Title":"string"};
+2020-05-29 23:52:35.998 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:35.999 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:35.999 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 3.6387ms
+2020-05-29 23:52:36.000 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:36.000 [INF] Request finished in 5.6613ms 200 application/json; charset=utf-8
+2020-05-29 23:52:36.360 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:36.360 [INF] CORS policy execution successful.
+2020-05-29 23:52:36.360 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:36.360 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:36.362 [INF] Proccessing Request: [CreateExampleCommand] for user [2c31ffe6-a50f-4479-9fc4-58123741b407] with model: {"Title":"string"};
+2020-05-29 23:52:36.363 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:36.363 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:36.364 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 3.4054ms
+2020-05-29 23:52:36.364 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:36.364 [INF] Request finished in 4.6264ms 200 application/json; charset=utf-8
+2020-05-29 23:52:36.615 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:36.616 [INF] CORS policy execution successful.
+2020-05-29 23:52:36.616 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:36.616 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:36.617 [INF] Proccessing Request: [CreateExampleCommand] for user [058e8c6c-3b41-4de6-a5ec-88b14130ee9d] with model: {"Title":"string"};
+2020-05-29 23:52:36.618 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:36.619 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:36.619 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 3.227ms
+2020-05-29 23:52:36.620 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:36.620 [INF] Request finished in 4.4741ms 200 application/json; charset=utf-8
+2020-05-29 23:52:36.838 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:36.838 [INF] CORS policy execution successful.
+2020-05-29 23:52:36.839 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:36.839 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:36.840 [INF] Proccessing Request: [CreateExampleCommand] for user [9ea4fee7-b16a-4ba7-b473-fc77b032d74b] with model: {"Title":"string"};
+2020-05-29 23:52:36.842 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:36.842 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:36.843 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 3.9731ms
+2020-05-29 23:52:36.843 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:36.843 [INF] Request finished in 5.3135ms 200 application/json; charset=utf-8
+2020-05-29 23:52:37.054 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:37.054 [INF] CORS policy execution successful.
+2020-05-29 23:52:37.054 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:37.054 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:37.056 [INF] Proccessing Request: [CreateExampleCommand] for user [c6494d2f-9b1f-4e41-8598-640ac18b3881] with model: {"Title":"string"};
+2020-05-29 23:52:37.056 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:37.057 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:37.058 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 3.0958ms
+2020-05-29 23:52:37.058 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:37.058 [INF] Request finished in 4.3623ms 200 application/json; charset=utf-8
+2020-05-29 23:52:37.271 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:37.271 [INF] CORS policy execution successful.
+2020-05-29 23:52:37.271 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:37.271 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:37.273 [INF] Proccessing Request: [CreateExampleCommand] for user [f3d2e54d-b374-4419-9f54-f69871773c86] with model: {"Title":"string"};
+2020-05-29 23:52:37.273 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:37.274 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:37.275 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 3.0774ms
+2020-05-29 23:52:37.275 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:37.275 [INF] Request finished in 4.4186ms 200 application/json; charset=utf-8
+2020-05-29 23:52:37.449 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:37.449 [INF] CORS policy execution successful.
+2020-05-29 23:52:37.449 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:37.450 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:37.451 [INF] Proccessing Request: [CreateExampleCommand] for user [0fd42d7d-7051-4b93-8ebc-a77d1f981961] with model: {"Title":"string"};
+2020-05-29 23:52:37.452 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:37.452 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:37.452 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 2.72ms
+2020-05-29 23:52:37.452 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:37.453 [INF] Request finished in 3.9858ms 200 application/json; charset=utf-8
+2020-05-29 23:52:37.648 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:37.648 [INF] CORS policy execution successful.
+2020-05-29 23:52:37.648 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:37.648 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:37.650 [INF] Proccessing Request: [CreateExampleCommand] for user [9c1bd404-cc19-4191-80ad-dcdc715bcac0] with model: {"Title":"string"};
+2020-05-29 23:52:37.651 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:37.652 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:37.652 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 3.7695ms
+2020-05-29 23:52:37.653 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:37.653 [INF] Request finished in 4.9398ms 200 application/json; charset=utf-8
+2020-05-29 23:52:37.830 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:37.830 [INF] CORS policy execution successful.
+2020-05-29 23:52:37.830 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:37.830 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:37.832 [INF] Proccessing Request: [CreateExampleCommand] for user [60cfe500-2133-4062-ba71-bc042a3971e4] with model: {"Title":"string"};
+2020-05-29 23:52:37.832 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:37.833 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:37.833 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 2.5496ms
+2020-05-29 23:52:37.833 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:37.834 [INF] Request finished in 4.0299ms 200 application/json; charset=utf-8
+2020-05-29 23:52:38.054 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:38.054 [INF] CORS policy execution successful.
+2020-05-29 23:52:38.054 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:38.055 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:38.056 [INF] Proccessing Request: [CreateExampleCommand] for user [d882d075-d734-4ceb-9905-1c56aacced97] with model: {"Title":"string"};
+2020-05-29 23:52:38.056 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:38.057 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:38.057 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 1.9376ms
+2020-05-29 23:52:38.057 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:38.057 [INF] Request finished in 3.1614ms 200 application/json; charset=utf-8
+2020-05-29 23:52:38.246 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:38.246 [INF] CORS policy execution successful.
+2020-05-29 23:52:38.246 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:38.246 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:38.248 [INF] Proccessing Request: [CreateExampleCommand] for user [e2885fd1-9c30-4344-817b-c7dc8ae39e36] with model: {"Title":"string"};
+2020-05-29 23:52:38.248 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:38.249 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:38.249 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 2.4346ms
+2020-05-29 23:52:38.249 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:38.249 [INF] Request finished in 3.5408ms 200 application/json; charset=utf-8
+2020-05-29 23:52:38.422 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:38.422 [INF] CORS policy execution successful.
+2020-05-29 23:52:38.422 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:38.422 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:38.423 [INF] Proccessing Request: [CreateExampleCommand] for user [6daae36b-edb8-4d87-9346-e0423bf4732b] with model: {"Title":"string"};
+2020-05-29 23:52:38.424 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:38.424 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:38.424 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 1.9469ms
+2020-05-29 23:52:38.424 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:38.425 [INF] Request finished in 2.9169ms 200 application/json; charset=utf-8
+2020-05-29 23:52:38.591 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:38.591 [INF] CORS policy execution successful.
+2020-05-29 23:52:38.592 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:38.592 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:38.593 [INF] Proccessing Request: [CreateExampleCommand] for user [74ccbc0a-37f7-4fc9-8b3d-b74b63e68c3f] with model: {"Title":"string"};
+2020-05-29 23:52:38.593 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:38.594 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:38.594 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 1.9622ms
+2020-05-29 23:52:38.594 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:38.594 [INF] Request finished in 3.0329ms 200 application/json; charset=utf-8
+2020-05-29 23:52:40.831 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:40.831 [INF] CORS policy execution successful.
+2020-05-29 23:52:40.831 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:40.832 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:40.833 [INF] Proccessing Request: [CreateExampleCommand] for user [b6da2afa-9770-464e-ae37-f440aea95583] with model: {"Title":"string"};
+2020-05-29 23:52:40.833 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:40.834 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:40.834 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 2.1827ms
+2020-05-29 23:52:40.834 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:40.834 [INF] Request finished in 3.1034ms 200 application/json; charset=utf-8
+2020-05-29 23:52:41.170 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:41.170 [INF] CORS policy execution successful.
+2020-05-29 23:52:41.171 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:41.171 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:41.172 [INF] Proccessing Request: [CreateExampleCommand] for user [64dd3ed0-faaf-4911-9530-866a7b18be87] with model: {"Title":"string"};
+2020-05-29 23:52:41.172 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:41.172 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:41.173 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 1.7362ms
+2020-05-29 23:52:41.173 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:41.173 [INF] Request finished in 2.8857ms 200 application/json; charset=utf-8
+2020-05-29 23:52:41.375 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:41.375 [INF] CORS policy execution successful.
+2020-05-29 23:52:41.375 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:41.375 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:41.376 [INF] Proccessing Request: [CreateExampleCommand] for user [fd565e1d-1eee-4a50-bd18-aa38209542d4] with model: {"Title":"string"};
+2020-05-29 23:52:41.377 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:41.377 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:41.377 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 2.0162ms
+2020-05-29 23:52:41.377 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:41.378 [INF] Request finished in 2.9947ms 200 application/json; charset=utf-8
+2020-05-29 23:52:41.573 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:41.574 [INF] CORS policy execution successful.
+2020-05-29 23:52:41.574 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:41.574 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:41.575 [INF] Proccessing Request: [CreateExampleCommand] for user [7bb7effb-09d0-4c7a-aff3-967e6c0451d0] with model: {"Title":"string"};
+2020-05-29 23:52:41.576 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:41.576 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:41.576 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 2.0486ms
+2020-05-29 23:52:41.577 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:41.577 [INF] Request finished in 3.3354ms 200 application/json; charset=utf-8
+2020-05-29 23:52:41.766 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:41.766 [INF] CORS policy execution successful.
+2020-05-29 23:52:41.767 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:41.767 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:41.768 [INF] Proccessing Request: [CreateExampleCommand] for user [0fb00594-82ef-4a3f-ba61-2bb1a103a960] with model: {"Title":"string"};
+2020-05-29 23:52:41.769 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:41.769 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:41.769 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 2.128ms
+2020-05-29 23:52:41.769 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:41.769 [INF] Request finished in 3.1731ms 200 application/json; charset=utf-8
+2020-05-29 23:52:41.952 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:41.952 [INF] CORS policy execution successful.
+2020-05-29 23:52:41.952 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:41.953 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:41.954 [INF] Proccessing Request: [CreateExampleCommand] for user [4caa0292-ca3b-4165-9bdf-22db3b6fea4c] with model: {"Title":"string"};
+2020-05-29 23:52:41.954 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:41.955 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:41.955 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 1.9195ms
+2020-05-29 23:52:41.955 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:41.955 [INF] Request finished in 3.238ms 200 application/json; charset=utf-8
+2020-05-29 23:52:42.110 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-29 23:52:42.110 [INF] CORS policy execution successful.
+2020-05-29 23:52:42.111 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:42.111 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-29 23:52:42.111 [INF] Proccessing Request: [CreateExampleCommand] for user [05b06994-18d2-408e-8975-474dfabd9b28] with model: {"Title":"string"};
+2020-05-29 23:52:42.112 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-29 23:52:42.112 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-29 23:52:42.112 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 1.3913ms
+2020-05-29 23:52:42.112 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-29 23:52:42.112 [INF] Request finished in 1.9963ms 200 application/json; charset=utf-8
+2020-05-30 13:42:38.028 [INF] Starting Amplifier web host
+2020-05-30 13:42:39.970 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-30 13:42:39.973 [INF] Hosting environment: Development
+2020-05-30 13:42:39.974 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-30 13:42:39.986 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-30 13:42:40.063 [INF] Request finished in 79.7948ms 200 text/html;charset=utf-8
+2020-05-30 13:42:40.224 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-30 13:42:40.307 [INF] Request finished in 83.6374ms 200 application/json;charset=utf-8
+2020-05-30 13:42:45.913 [INF] Request starting HTTP/2.0 GET https://localhost:44361/api/values  
+2020-05-30 13:42:45.919 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 13:42:45.955 [INF] Route matched with {action = "GenerateKey", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GenerateKey() on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-30 13:42:46.028 [INF] Proccessing Request: [GenerateKeyCommand] for user [7aa0514b-4de9-41d3-8e66-56cd37041ca2] with model: {};
+2020-05-30 13:42:46.043 [INF] Executing ObjectResult, writing value of type 'System.Guid'.
+2020-05-30 13:42:46.068 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api) in 108.4829ms
+2020-05-30 13:42:46.069 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.GenerateKey (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 13:42:46.070 [INF] Request finished in 157.3909ms 200 application/json; charset=utf-8
+2020-05-30 13:42:55.397 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-30 13:42:55.403 [INF] CORS policy execution failed.
+2020-05-30 13:42:55.404 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-05-30 13:42:55.405 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 13:42:55.415 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-30 13:42:55.480 [INF] Proccessing Request: [CreateExampleCommand] for user [71e82aee-d618-49aa-b942-25574d4b607b] with model: {"Title":"string"};
+2020-05-30 13:42:56.262 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-30 13:42:56.274 [WRN] Long Running Request: [CreateExampleCommand] (785 milliseconds) for user [baf3c458-8c47-4a77-a014-b8fcea91678a] with model: {"Title":"string"};
+2020-05-30 13:42:56.276 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-30 13:42:56.280 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 864.3904ms
+2020-05-30 13:42:56.280 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 13:42:56.283 [INF] Request finished in 887.6298ms 200 application/json; charset=utf-8
+2020-05-30 13:44:10.555 [INF] Starting Amplifier web host
+2020-05-30 13:44:13.028 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-30 13:44:13.031 [INF] Hosting environment: Development
+2020-05-30 13:44:13.033 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-30 13:44:13.054 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-30 13:44:13.148 [INF] Request finished in 97.0277ms 200 text/html;charset=utf-8
+2020-05-30 13:44:13.311 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-30 13:44:13.435 [INF] Request finished in 124.1607ms 200 application/json;charset=utf-8
+2020-05-30 13:44:16.993 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-30 13:44:17.000 [INF] CORS policy execution failed.
+2020-05-30 13:44:17.003 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-05-30 13:44:17.005 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 13:44:17.042 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-30 13:44:17.276 [INF] Executing action method DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) - Validation state: "Valid"
+2020-05-30 13:44:17.309 [INF] Proccessing Request: [CreateExampleCommand] for user [7c847976-46e7-405b-b772-ddb717c9d79a] with model: {"Title":"string"};
+2020-05-30 13:44:17.715 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-05-30 13:44:22.758 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 5712.0356ms
+2020-05-30 13:44:22.775 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 13:44:22.782 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The entity type 'Example' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.AddAsync[TEntity](TEntity entity, CancellationToken cancellationToken)
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.Data.EFCore.Repositories.CrudRepository`2.AddAsync(TEntity entity)
+   at DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler.Handle(CreateExampleCommand request, CancellationToken cancellationToken) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Domain\Example\Commands\CreateExampleCommand.cs:line 41
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.CrossCutting.MediatR.Behaviors.RequestPerformanceBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample(CreateExampleCommand input) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Controllers\ValuesController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-05-30 13:47:04.794 [INF] Starting Amplifier web host
+2020-05-30 13:47:06.680 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-30 13:47:06.684 [INF] Hosting environment: Development
+2020-05-30 13:47:06.685 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-30 13:47:06.705 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-30 13:47:06.798 [INF] Request finished in 95.9609ms 200 text/html;charset=utf-8
+2020-05-30 13:47:06.961 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-30 13:47:07.057 [INF] Request finished in 96.0168ms 200 application/json;charset=utf-8
+2020-05-30 13:47:10.615 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-30 13:47:10.624 [INF] CORS policy execution failed.
+2020-05-30 13:47:10.628 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-05-30 13:47:10.630 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 13:47:10.669 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-30 13:47:10.895 [INF] Executing action method DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) - Validation state: "Valid"
+2020-05-30 13:47:10.929 [INF] Proccessing Request: [CreateExampleCommand] for user [e8c2ce59-831a-4856-a850-bc8f29eb537e] with model: {"Title":"string"};
+2020-05-30 13:47:11.300 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyInMemoryDatabase 
+2020-05-30 13:47:16.763 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 6090.99ms
+2020-05-30 13:47:16.765 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 13:47:16.766 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The entity type 'Example' was not found. Ensure that the entity type has been added to the model.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.GetOrCreateEntry(Object entity)
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.AddAsync[TEntity](TEntity entity, CancellationToken cancellationToken)
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.Data.EFCore.Repositories.CrudRepository`2.AddAsync(TEntity entity)
+   at DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommandHandler.Handle(CreateExampleCommand request, CancellationToken cancellationToken) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Domain\Example\Commands\CreateExampleCommand.cs:line 41
+   at DiegoRangel.DotNet.Framework.CQRS.Infra.CrossCutting.MediatR.Behaviors.RequestPerformanceBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample(CreateExampleCommand input) in D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api\Controllers\ValuesController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-05-30 13:47:16.823 [INF] Request finished in 6209.4589ms 500 text/plain
+2020-05-30 13:48:03.027 [INF] Starting Amplifier web host
+2020-05-30 13:48:04.868 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-30 13:48:04.872 [INF] Hosting environment: Development
+2020-05-30 13:48:04.873 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-30 13:48:04.893 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-30 13:48:04.986 [INF] Request finished in 95.6579ms 200 text/html;charset=utf-8
+2020-05-30 13:48:05.160 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-30 13:48:05.260 [INF] Request finished in 100.275ms 200 application/json;charset=utf-8
+2020-05-30 13:48:19.707 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-30 13:48:19.713 [INF] CORS policy execution failed.
+2020-05-30 13:48:19.717 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-05-30 13:48:19.719 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 13:48:19.757 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-30 13:48:19.981 [INF] Executing action method DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) - Validation state: "Valid"
+2020-05-30 13:48:20.014 [INF] Proccessing Request: [CreateExampleCommand] for user [d341d84e-ff06-4eaf-9600-3d0ef219fea4] with model: {"Title":"string"};
+2020-05-30 13:51:32.897 [INF] Starting Amplifier web host
+2020-05-30 13:51:34.819 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-30 13:51:34.823 [INF] Hosting environment: Development
+2020-05-30 13:51:34.824 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-30 13:51:34.845 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-30 13:51:34.939 [INF] Request finished in 97.8659ms 200 text/html;charset=utf-8
+2020-05-30 13:51:35.107 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-30 13:51:35.212 [INF] Request finished in 105.5769ms 200 application/json;charset=utf-8
+2020-05-30 13:51:44.619 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-30 13:51:44.627 [INF] CORS policy execution failed.
+2020-05-30 13:51:44.631 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-05-30 13:51:44.632 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 13:51:44.670 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-30 13:51:44.896 [INF] Executing action method DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) - Validation state: "Valid"
+2020-05-30 13:51:44.929 [INF] Proccessing Request: [CreateExampleCommand] for user [e438e664-a236-4e77-830e-21703db4b148] with model: {"Title":"string"};
+2020-05-30 14:10:48.779 [INF] Starting Amplifier web host
+2020-05-30 14:10:50.780 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-30 14:10:50.784 [INF] Hosting environment: Development
+2020-05-30 14:10:50.786 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-30 14:10:50.805 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-30 14:10:50.805 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-30 14:10:50.923 [INF] Request finished in 121.4518ms 200 text/html;charset=utf-8
+2020-05-30 14:10:50.967 [INF] Request finished in 166.2943ms 200 application/json;charset=utf-8
+2020-05-30 14:10:51.081 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-30 14:10:51.084 [INF] Request finished in 3.5349ms 200 application/json;charset=utf-8
+2020-05-30 14:10:53.997 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-30 14:10:54.004 [INF] CORS policy execution failed.
+2020-05-30 14:10:54.008 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-05-30 14:10:54.009 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 14:10:54.048 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-30 14:10:54.273 [INF] Executing action method DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) - Validation state: "Valid"
+2020-05-30 14:10:54.306 [INF] Proccessing Request: [CreateExampleCommand] for user [7d455eb0-eae0-4c55-86e6-aed04c82a71d] with model: {"Title":"string"};
+2020-05-30 14:11:47.899 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyInMemoryDatabase 
+2020-05-30 14:12:34.097 [INF] Saved 1 entities to in-memory store.
+2020-05-30 14:12:46.749 [WRN] Long Running Request: [CreateExampleCommand] (112433 milliseconds) for user [f088195c-a0be-401c-ae66-971adc84560e] with model: {"Title":"string"};
+2020-05-30 14:12:46.763 [INF] Executed action method DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 112482.6692ms.
+2020-05-30 14:12:46.769 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-30 14:12:46.788 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 112736.0908ms
+2020-05-30 14:12:46.789 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 14:12:46.791 [INF] Request finished in 112794.9574ms 200 application/json; charset=utf-8
+2020-05-30 14:18:29.970 [INF] Starting Amplifier web host
+2020-05-30 14:18:30.527 [INF] Application started. Press Ctrl+C to shut down.
+2020-05-30 14:18:30.530 [INF] Hosting environment: Development
+2020-05-30 14:18:30.531 [INF] Content root path: D:\MyProjects\DiegoRangel.CleanArchitecture.Template\src\DiegoRangel.CleanArchitecture.Api
+2020-05-30 14:18:30.541 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/index.html  
+2020-05-30 14:18:30.615 [INF] Request finished in 77.1662ms 200 text/html;charset=utf-8
+2020-05-30 14:18:30.775 [INF] Request starting HTTP/2.0 GET https://localhost:44361/swagger/v1/swagger.json  
+2020-05-30 14:18:30.849 [INF] Request finished in 74.6326ms 200 application/json;charset=utf-8
+2020-05-30 14:18:34.205 [INF] Request starting HTTP/2.0 POST https://localhost:44361/api/values application/json-patch+json 18
+2020-05-30 14:18:34.212 [INF] CORS policy execution failed.
+2020-05-30 14:18:34.216 [INF] Request origin https://localhost:44361 does not have permission to access the resource.
+2020-05-30 14:18:34.217 [INF] Executing endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 14:18:34.251 [INF] Route matched with {action = "AddExample", controller = "Values"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddExample(DiegoRangel.CleanArchitecture.Domain.Example.Commands.CreateExampleCommand) on controller DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController (DiegoRangel.CleanArchitecture.Api).
+2020-05-30 14:18:34.379 [INF] Proccessing Request: [CreateExampleCommand] for user [ed4ca595-3de9-44bc-a28d-2ede3c6966a9] with model: {"Title":"string"};
+2020-05-30 14:18:34.895 [INF] Entity Framework Core 3.1.4 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyInMemoryDatabase 
+2020-05-30 14:18:35.020 [INF] Saved 1 entities to in-memory store.
+2020-05-30 14:18:35.027 [WRN] Long Running Request: [CreateExampleCommand] (637 milliseconds) for user [d78a4fc7-a85d-4e3b-a369-0e91db5bb6f6] with model: {"Title":"string"};
+2020-05-30 14:18:35.032 [INF] Executing ObjectResult, writing value of type 'DiegoRangel.CleanArchitecture.Api.ViewModels.Examples.ExampleViewModel'.
+2020-05-30 14:18:35.047 [INF] Executed action DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api) in 792.3181ms
+2020-05-30 14:18:35.048 [INF] Executed endpoint 'DiegoRangel.CleanArchitecture.Api.Controllers.ValuesController.AddExample (DiegoRangel.CleanArchitecture.Api)'
+2020-05-30 14:18:35.049 [INF] Request finished in 846.1606ms 200 application/json; charset=utf-8
